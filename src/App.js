@@ -45,7 +45,7 @@ class ListItem extends Component{
   }
   render(){
     //const rethtml
-    console.log(this.state);
+    //console.log(this.state);
     if(this.state.isLoaded){
       return (
         <div className="listItem" onClick={this.showOverlay()}>{this.state.data.title}</div>
